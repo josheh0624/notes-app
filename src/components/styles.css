@@ -1,0 +1,33 @@
+
+
+
+/*ADD BUTTON CSS */
+.add-button {
+    display: inline-block;
+    position: absolute;
+    height: 70px;
+    width:70px;
+    border-radius: 35px;
+    border: none;
+    margin: 30px 30px 10px 30px;
+    cursor: pointer;
+    background-color: #0729c0;
+    z-index: 100; /* button is above the background */
+
+}
+
+/*SEARCH BAR CSS */
+
+.search-bar {
+    display: inline-block;
+    position: absolute;
+    height: 50px;
+    width: 240px;
+    z-index: 100;
+}
+
+@media (max-width: 800px){
+    .add-button {
+
+    }
+}
