@@ -11,27 +11,21 @@
   background-color: #1f1f20;
   font-family: "oswald", sans-serif;
 
-  
+  padding-bottom: 80px;
 }
 
-.container {
-  position: relative;
+.ui-container {
+  position: fixed;
   display: flex;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-}
+  bottom: 0;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  z-index: 100;
+  padding: 20px;
 
-/* UI BAR */
-
-.ui-bar {
-    position: absolute;
-    display: inline-block;
-    position:absolute;
-    margin: 0%;
-    width: 100vw;
-    height: 10vh;
-    bottom: 0;
+  /* remove */
+  border: 8px solid #0000ff;
 }
 
 .heading {
@@ -45,6 +39,7 @@
   z-index: 1;
   text-align: left;
   align-self: flex-start; 
+  width: 100%;
 }
 
 .oswald-200 {

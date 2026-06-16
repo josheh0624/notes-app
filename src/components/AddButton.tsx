@@ -4,7 +4,6 @@ import './styles.css';
 const AddButton = () => {
     return (
         <div>
-            
             <button className="add-button">+</button>
         </div>
     )

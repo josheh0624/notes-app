@@ -7,19 +7,14 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <span className="heading">Welcome Back name</span>
-      <div className="container">
-        <span className="ui-bar">
+      <div className="ui-container"> 
           <div>
             <AddButton/>
           </div>
           <div>
             <SearchBar />
           </div>
-          
-        </span>
       </div>
-      
-      
     </div>
   );
 }
