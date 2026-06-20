@@ -49,6 +49,8 @@
   font-style: normal;
 }
 
+
+
 /* make the heading smaller on mobile */
 @media (max-width: 800px){
   .heading {
