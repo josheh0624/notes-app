@@ -42,29 +42,24 @@ const Notepad = ({notes, setNotes}: Props) => {
     
 
     return (
-        <div className="App">
-            <div className="notepad">
-                <div
-                        onClick={() => {nav(`/`);}}
-                        style={{zIndex: '100'}}
-                        className="back-button-wrapper"
-                    >
-                        <Back />
-                </div>
-
+        <div className="app-notepad">
+            <div
+                onClick={() => {nav(`/`);}}
+                style={{zIndex: '100'}}
+                className="back-button-wrapper"
+            >
+                <Back />
+            </div>     
+  
+            <span className="notepad-heading">{note.title}</span>
+               
                 
-                <span className="notepad-heading">{note.title}</span>
-                
-                
-
-                <textarea 
-                    value={note.content}
-                    onChange={(e) => handleChange(e.target.value)}
-                    placeholder="Type here..."
-                    className='note-editor'
-                    
-                />
-            </div>
+            <textarea 
+                value={note.content}
+                onChange={(e) => handleChange(e.target.value)}
+                placeholder="Type here..."
+                className="note-editor"
+            />
         </div>
     );
 }

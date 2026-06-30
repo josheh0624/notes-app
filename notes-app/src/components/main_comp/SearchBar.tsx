@@ -13,7 +13,7 @@ const SearchBar = ({handleSearch}: Props) => {
 
     return (
         <div style={{ zIndex: 100, width: '100%'}}>
-                <div className="liquidGlass-wrapper button" style={{width: '100%'}}>
+                <div className="liquidGlass-wrapper button--search" style={{width: '100%'}}>
                     <div className="liquidGlass-effect"></div>
                     <div className="liquidGlass-tint"></div>
                     <div className="liquidGlass-shine"></div>

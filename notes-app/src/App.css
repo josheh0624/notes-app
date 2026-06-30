@@ -64,7 +64,7 @@
 
 
 
-/* make the heading smaller on mobile */
+/* mobile */
 @media (max-width: 800px){
   .heading {
     margin: 15px 15px 5px 15px;
